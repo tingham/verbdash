@@ -1,0 +1,25 @@
+{
+  "name": "verbdash",
+  "version": "1.0.0",
+  "description": "Consolidates MODO actions into a single file when exported to Collada format. (For use with Xcode and SceneKit)",
+  "main": "Verbdash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://bitbucket.org/urbanfort/verbdash.git"
+  },
+  "keywords": [
+    "3d",
+    "animation",
+    "scenekit"
+  ],
+  "author": "Thomas Ingham <tingham@mac.com>",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "",
+    "moment": "",
+    "bluebird": ""
+  }
+}
