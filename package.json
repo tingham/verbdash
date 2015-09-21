@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://bitbucket.org/urbanfort/verbdash.git"
+    "url": "https://github.com/tingham/verbdash"
   },
   "keywords": [
     "3d",
@@ -19,8 +19,6 @@
   "license": "ISC",
   "dependencies": {
     "underscore": "",
-    "moment": "",
-    "bluebird": "",
     "minimist": ""
   }
 }
