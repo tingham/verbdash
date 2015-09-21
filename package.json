@@ -20,6 +20,7 @@
   "dependencies": {
     "underscore": "",
     "moment": "",
-    "bluebird": ""
+    "bluebird": "",
+    "minimist": ""
   }
 }
