@@ -1,4 +1,7 @@
 # Verbdash
+
+![](https://cloud.githubusercontent.com/assets/265838/9984968/b816ebea-5ff0-11e5-9327-754f040afa25.png)
+
 ====
 
 Quickly consolidate your "actions, sequences, segments, pose sets" into [Collada](https://www.khronos.org/collada/) files from [MODO](http://thefoundry.co.uk) *or potentially a bunch of other apps that claim to write Collada format files.*
