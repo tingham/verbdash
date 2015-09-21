@@ -93,9 +93,24 @@ function start () {
 
     outputString = masterFileString.replace("</asset>", outputString);
 
-    console.log(outputString);
+    if (outputPath === null) {
+        outputPath = [inputPath, fileList[0].replace(".dae", "-Condensed.dae")].join("/");
+    }
+
+    writeOutput(outputString, outputPath);
+
 }
 
+function writeOutput (output, toFile) {
+    if (fs.existsSync(toFile)) {
+        console.log("Output file: " + toFile + " already exists.");
+        return;
+    }
+
+    var handle = fs.openSync(toFile, 'w');
+    fs.writeSync(handle, output);
+    fs.closeSync(handle);
+}
 
 function sanitizeId (someId) {
     var cleanRegExp = new RegExp(/([^\w\s\d\[\]\(\).])/g);
